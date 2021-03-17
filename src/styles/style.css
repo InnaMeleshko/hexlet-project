@@ -1,1 +1,42 @@
 /** CSS STYLE **/
+
+* {
+   margin:0;
+   padding:0;
+   box-sizing: border-box;
+   }
+
+.body {
+   font-family: 'Open Sans', sans-serif;
+   font-size: 16px;
+   color: #2A2626;
+}
+
+
+.section {
+   max-width: 1110px;
+   margin: 100px auto;
+   background: url(/images/background.png);
+
+
+}
+.header-title {
+   color: #FE8A02;
+   font-family: 'Neucha', cursive;
+   font-size: 72px;
+   line-height: 1.2em;
+}
+
+
+.header-subtitle {
+   color: #2A2626;
+   font-size: 60px;
+   line-height: 1.2em;
+
+}
+
+.movie-wrap {
+   position: absolute;
+   width: 919px;
+   height: 569px;
+}

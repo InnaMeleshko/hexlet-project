@@ -301,5 +301,50 @@ color: #2A2626;
 }
 
 
+/*Premature optimization*/
+
+.section-brown {
+   
+      background: #B09A81;
+      width: 100%;
+      height: 914px;
+
+}
 
 
+#premature-optimization{
+   padding-top: 100px;
+   padding-bottom: 100px;
+   
+   
+}
+
+#premature-optimization p {
+   color: #FFFFFF;
+   padding-left: 0;
+
+}
+
+#premature-optimization h1 {
+   color: #FFFFFF;
+   padding-left: 0;
+
+}
+
+#premature-optimization span {
+   color: #FFFFFF;
+   padding-left: 0;
+
+}
+
+#premature-optimization .inner-text {
+
+   padding-left: 0;
+
+}
+
+
+#premature-optimization .section-secondtitle {
+   background-color: #FFFFFF;
+   color: #B09A81;
+}

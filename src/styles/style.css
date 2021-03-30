@@ -239,3 +239,67 @@
 }
 
 
+/*IKEA*/
+#ikea-effect {
+   padding-top: 100px;
+   padding-bottom: 100px;
+}
+.inner-title {
+   font-family: 'Neucha', cursive;
+   font-size: 60px;
+   line-height: 72px;
+   color: #2A2626;
+   font-weight: 400;
+   margin-bottom: 30px;
+   padding-top: 0;
+   padding-left: 30px;
+
+}
+
+.section-secondtitle {
+   display: block;
+   background-color: #B09A81;
+   margin-top: 100px;
+   margin-bottom: 20px;
+   color: #FFFFFF;
+   font-family: 'Open Sans';
+   font-weight: 700;
+   
+
+}
+
+.container-inner {
+   display: flex;
+   justify-content: space-between;
+
+}
+
+.inner-text { 
+   width: 50%;
+}
+
+.inner-image {
+   vertical-align: middle;
+}
+
+.inner-suptitle {
+font-family: 'Neucha', cursive;
+font-size: 24px;
+font-weight: 400px;
+line-height: 29px;
+color: #908D8B;
+padding-left: 30px;
+}
+
+.inner-paragraph {
+font-family: 'Neucha', cursive;
+font-size: 34px;
+line-height: 41px;
+font-weight: 400;
+padding-left: 30px;
+color: #2A2626;
+}
+
+
+
+

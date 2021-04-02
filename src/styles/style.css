@@ -356,3 +356,46 @@ color: #2A2626;
    padding-top: 100px;
    padding-bottom: 100px;
 }
+
+
+
+/*hyperbolic-depreciation*/
+
+#hyperbolic-depreciation {
+
+   padding-top: 100px;
+   padding-bottom: 100px;
+
+}
+
+
+#hyperbolic-depreciation p {
+   color: #FFFFFF;
+   padding-left: 0;
+
+}
+
+#hyperbolic-depreciation h1 {
+   color: #FFFFFF;
+   padding-left: 0;
+
+}
+
+#hyperbolic-depreciation span {
+   color: #FFFFFF;
+   padding-left: 0;
+
+}
+
+#hyperbolic-depreciation .inner-text {
+
+   padding-left: 0;
+
+}
+
+
+#hyperbolic-depreciation .section-secondtitle {
+   background-color: #FFFFFF;
+   color: #B09A81;
+}
+

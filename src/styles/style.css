@@ -348,3 +348,11 @@ color: #2A2626;
    background-color: #FFFFFF;
    color: #B09A81;
 }
+
+
+/*Premature-optimization*/
+
+#distortion-of-novelty {
+   padding-top: 100px;
+   padding-bottom: 100px;
+}

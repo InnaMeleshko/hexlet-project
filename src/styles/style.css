@@ -54,6 +54,16 @@ position: relative;
 
 }
 
+.section {
+   max-width: 1110px;
+   margin: 0 auto;
+   width: 100%;
+   height: auto;
+   position: relative;
+   padding: 100px 0 100px 0;
+
+}
+
 .black {
    color: #2A2626;
 }
@@ -81,15 +91,7 @@ position: relative;
 }
 
 
-.section {
-   max-width: 1110px;
-   margin: 0 auto;
-   width: 100%;
-   height: auto;
-   position: relative;
-   padding: 100px 0 100px 0;
 
-}
 
 
 
@@ -98,6 +100,10 @@ position: relative;
 
 .container-header {
    background: #f5f4f0;
+   position: relative;
+   width: 100%;
+   height: auto;
+   
 }
 .container-header::before {
    content:"";
@@ -109,10 +115,14 @@ position: relative;
    position: absolute;
    opacity: .1;
    background: url('./../../images/background.png');
+   overflow: hidden;
   
 }
 .header-header {
    margin-bottom: 200px;
+   position: relative;
+   z-index: 1;
+  
 }
 
 .header-img {
@@ -169,22 +179,34 @@ position: relative;
 
 .container-video {
    background: #FFF;
+   width: 100%;
+   height: auto;
+   position: relative;
 }
 
 .container-video::before {
    display: none;
  }
 
+ .container-video .section{
+    margin-bottom: -200px;
+    z-index: 2;
+ }
 
-.container-video .section {
-   position: relative;
-   height: 914px;
+
+.video-inner {
+   
+   left: 50%;
+   
+
 }
+
+
 .video {
    filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
-   position: absolute;
-   bottom: -100px;
-   z-index: 1;
+   display: block;
+   margin: 0 auto;
+
    
 }
 
@@ -198,6 +220,8 @@ text-align: center;
 
 }
 
+
+
 .container-video p {
    text-align: center;
    margin-bottom: 20px;
@@ -209,6 +233,7 @@ text-align: center;
 }
 
 /*Navigation*/
+
 .container-navigation {
    background-color: #42413C;
    width: 100%;
@@ -233,18 +258,26 @@ text-align: center;
    margin-top: 20px;
    padding: 24px;
 }
+.navigation-inner:hover {
+   background-color: #FE8A02;
+}
+
+.navigation-inner:nth-child(-n+3) {
+   margin-top: 0;
+}
+
+.navigation-inner:hover .nav-span {
+   color: #FFF;
+}
 
 .navigation-inner--title  {
-   
-   display: block;
-   text-decoration: none;
-   width: 350px;
-   height: auto;
-   max-height: 340px;
-   margin-top: 20px;
-   padding: 24px;
+background-color: transparent;
+}
+
+.navigation-inner--title:hover {
    background-color: transparent;
 }
+
 .navigation-title {
    font-size: 52px;
 }
@@ -257,13 +290,6 @@ text-align: center;
    line-height: 1;
    margin-bottom: 40px;
    
-}
-
-.navigation-inner:hover {
-   background-color: #FE8A02;
-}
-.navigation-inner:hover .nav-span {
-   color: #FFF;
 }
 
 
@@ -474,67 +500,59 @@ text-align: center;
    opacity: .1;
    background: url('./../../images/background.png');
 }
-
+.container-errors-in-planning .header-paragraph--black {
+   margin-bottom: 20px;
+}
 
 /*footer*/
 
 .container-footer {
    width: 100%;
-   max-width: 1110px;
-   margin: 0 auto;
-   position: relative;
    height: auto;
+   position: relative;
 
 }
    
-
-.footer-inner {
-   margin-top: 100px;
-   margin-bottom: 76px;
-   width: 1110px;
-   height: 190px;
+.container-footer .section {
    background-color:#42413C;
+   height: auto;
    display: flex;
    justify-content: space-between;
+   padding: 0;
+   margin-top: 100px;
+   align-items: center;
 }
 
 
-
-
-
-
-.footer-input {
-   height: 50px;
-   padding: 15px;
-   font-family: inherit;
-   font-size: 13px;
+.input {
    width: 100%;
    
 }
+
+
+
 
 .container-footer .section-paragraph--white {
    padding: 55px;
    
 }
 
-.footer-form {
-   padding-top: 38px;
-   width: 560px;
-   position: relative;
+.section-inner {
+   width: 50%;
+  
+   
 }
-
 
 label {
    position: absolute;
    display: block;
-   font-family: 'Open Sans';
-   font-weight: 400;
-   font-size: 18px;
-   line-height: 1.6em;
-   color: #FFF;
-   margin-bottom: 9px;
+   color: #757575;
+   
  
 }
+
+
+
 
 
 .contacts {
@@ -563,16 +581,23 @@ label {
    font-family: 'Open Sans', serif;
 }
 
-.footer-placeholder {
+placeholder {
    color: #757575;
    font-size: 13.1px;
-   line-height: 1.6em;
+   line-height: 160%;
+   font-weight: 400;
+   opacity: .2;
+   font-family: 'Open Sans', serif;
+
+
+  
 }
 
 .input-form {
    position: relative;
    display:flex;
    justify-content: flex-start;
+  
 }
 
 .input-button {
@@ -591,6 +616,17 @@ label {
    margin: 0 auto;
    
 }
+
+.input-name  {
+   margin-bottom: 9px;
+   color: #FFF;
+   font-family: 'Open Sans', serif;
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 1.6em;
+}
+
+
 
 
 

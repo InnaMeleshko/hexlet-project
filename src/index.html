@@ -45,17 +45,20 @@
                 <section class="section">
                     <h2 class="header-video"><span class="orange">Что же это такое</span><br>когнитивные искажения?<br></h2>
                     <p class="video-text">Что такое когнитивные искажения. Petrovna Channel</p>
-                    <iframe class="video" width="919" height="569" 
-                        src="https://www.youtube.com/embed/jie9AizBqss" frameborder="0" 
-                        allowfullscreen>
-                    </iframe>
+                    <div class="video-inner">
+
+                        <iframe class="video" width="919" height="569" 
+                            src="https://www.youtube.com/embed/jie9AizBqss" frameborder="0" 
+                            allowfullscreen>
+                        </iframe>
+                    </div>
                 </section>
             </div> <!--video-->
                  
 
             <nav class="container-navigation">
                 <section class="section" id="navigation">
-                        <div class="navigation-inner--title">
+                        <div class="navigation-inner navigation-inner--title">
                             <h1 class="navigation-title"><span class="orange">5 когнитивных 
                                 искажений</span>
                                 <span class="white">о существовании которых стоит помнить</span></h1>
@@ -223,8 +226,9 @@
                                      ставить сроки, в которые невозможно закончить запланированное.</p>.
                             </div>
                             <div class="header-inner">
-                                <p class="header-paragraph--black">Это отлично выражается в старом афоризме:
-                                    Первые 90% готового кода отнимают первые 90% времени разработки. Оставшиеся 10% отнимают вторые 90% времени разработки.</p>
+                                <p class="header-paragraph--black">Это отлично выражается в старом афоризме:<p>
+                                <p class="header-paragraph--black">Первые 90% готового кода отнимают первые 90% времени разработки. 
+                                    Оставшиеся 10% отнимают вторые 90% времени разработки.</p>
 
                             </div>
                         </div>
@@ -235,25 +239,26 @@
 
         
             <footer class="container-footer">
-                <div class="footer-inner">
-                    <div>
+                <section class="section">
+                    <div class="section-inner">
                         <p class="section-paragraph--white">Хотите узнать больше?<br>Подпишитесь на обновления</p>
                     </div>
-                    <div class="footer-form">
-                            <label for="footer-input">Электронная почта</label>
-                            <form class="input-form">
-                                <input type="email" id="footer-input" name="email" placeholder class="footer-placeholder"="Электронная почта">
-                                <button class="input-button"></button>
-                            </form>
-                            <p class="footer-rules">Подписываясь, вы принимаете <span><a  href="#">правила сервиса</a></span></p>
+                    <div class="section-inner">
+                        
+                        <form class="input-form" action="#" method="GET">
+                            <input class="input" type="email" id="footer-input" name="email" placeholder="Ваша электронная почта">
+                            <button class="input-button" type="submit"></button>
+                        </form>
+                        <div class="footer-rules">Подписываясь, вы принимаете <span><a  href="#">правила сервиса</a></span></div>
                     </div>  
-                </div>
-                <div class="contacts">
-                        <p class="contacts-inner">© 2021 Инна Мелешко</p>
-                        <p class="contacts-inner">По материалам статьи <a class="contacts-link" 
-                            href="https://medium.com/hackernoon/cognitive-biases-in-programming-5e937707c27b">Yash Ranadive Cognitive Biases in Programming</a></p>
-                        <p class="contacts-inner"><a class="contacts-link" href="https://ru.hexlet.io/">Курсы программирования Hexlet</a></p>
-                </div>
+                </section>
+                    <div class="contacts">
+                            <p class="contacts-inner">© 2021 Инна Мелешко</p>
+                            <p class="contacts-inner">По материалам статьи <a class="contacts-link" 
+                                href="https://medium.com/hackernoon/cognitive-biases-in-programming-5e937707c27b">Yash Ranadive Cognitive Biases in Programming</a></p>
+                            <p class="contacts-inner"><a class="contacts-link" href="https://ru.hexlet.io/">Курсы программирования Hexlet</a></p>
+                    </div>
+                
             </footer>
         
     </body>

@@ -267,11 +267,11 @@ h2 {
   color: #fff;
 }
 
-.navigation-inner--title {
+.navigation-inner-title {
   background-color: transparent;
 }
 
-.navigation-inner--title:hover {
+.navigation-inner-title:hover {
   background-color: transparent;
 }
 
@@ -283,7 +283,7 @@ h2 {
   color: #fff;
 }
 
-.section-paragraph--orange {
+.section-paragraph-orange {
   color: #fe8a02;
   font-weight: 400;
   font-size: 34px;
@@ -321,14 +321,14 @@ h2 {
   content: "";
 }
 
-.first-header--black {
+.first-header-black {
   color: #2a2626;
   font-weight: 400;
   font-family: 'Neucha', cursive;
   line-height: 1.2em;
 }
 
-.second-header--white {
+.second-header-white {
   margin: 100px 0 20px 0;
 
   color: #fff;
@@ -336,7 +336,7 @@ h2 {
   background-color: #b09a81;
 }
 
-.section-span--dark50 {
+.section-span-dark50 {
   color: #908d8b;
   font-weight: 400px;
   font-size: 24px;
@@ -349,7 +349,7 @@ h2 {
   padding-left: 30px;
 }
 
-.section-paragraph--black {
+.section-paragraph-black {
   color: #2a2626;
   font-weight: 400;
   font-size: 34px;
@@ -357,7 +357,7 @@ h2 {
   line-height: 1.2em;
 }
 
-.header-paragraph--black {
+.header-paragraph-black {
   color: #2a2626;
   font-size: 16px;
   font-family: 'Open Sans', serif;
@@ -384,7 +384,7 @@ h2 {
   content: "";
 }
 
-.section-span--white50 {
+.section-span-white50 {
   color: #d7ccc0;
   font-weight: 400px;
   font-size: 24px;
@@ -392,7 +392,7 @@ h2 {
   line-height: 1.2em;
 }
 
-.second-header--brown {
+.second-header-brown {
   margin: 100px 0 20px 0;
 
   color: #b09a81;
@@ -400,14 +400,14 @@ h2 {
   background-color: #fff;
 }
 
-.first-header--white {
+.first-header-white {
   color: #fff;
   font-weight: 400;
   font-family: 'Neucha', cursive;
   line-height: 1.2em;
 }
 
-.section-paragraph--white {
+.section-paragraph-white {
   color: #fff;
   font-weight: 400;
   font-size: 34px;
@@ -415,12 +415,12 @@ h2 {
   line-height: 1.2em;
 }
 
-.inner-text--left {
+.inner-text-left {
   width: 50%;
   padding-right: 30px;
 }
 
-.header-paragraph--white {
+.header-paragraph-white {
   color: #fff;
   font-size: 16px;
   font-family: 'Open Sans', serif;
@@ -488,7 +488,7 @@ h2 {
   content: "";
 }
 
-.container-errors-in-planning .header-paragraph--black {
+.container-errors-in-planning .header-paragraph-black {
   margin-bottom: 20px;
 }
 
@@ -516,7 +516,7 @@ h2 {
   width: 100%;
 }
 
-.container-footer .section-paragraph--white {
+.container-footer .section-paragraph-white {
   padding: 55px;
 }
 

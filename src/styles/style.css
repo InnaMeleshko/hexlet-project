@@ -304,21 +304,19 @@ h2 {
 
 .container-ikea {
   background-color: #f5f4f0;
+  position: relative;
 }
 
 .container-ikea::before {
   position: absolute;
-
-  display: block;
   width: 100%;
   height: 100%;
-  overflow: hidden;
-
+  
   background: url('../images/background.png');
   background-repeat: no-repeat;
   background-size: cover;
   opacity: 0.1;
-
+  
   content: "";
 }
 
@@ -368,15 +366,14 @@ h2 {
 /* Premature optimization */
 .container-premature-optimization {
   background: #b09a81;
+  position: relative;
 }
 
 .container-premature-optimization::before {
-  position: absolute;
-
-  display: block;
+  
   width: 100%;
   height: 100%;
-  overflow: hidden;
+  position: absolute;
 
   background: url('../images/background.png');
   background-repeat: no-repeat;
@@ -432,15 +429,15 @@ h2 {
 /* distortion-of-novelty */
 .container-distortion-of-novelty {
   background-color: #f5f4f0;
+  position: relative;
 }
 
 .container-distortion-of-novelty::before {
   position: absolute;
 
-  display: block;
+  
   width: 100%;
   height: 100%;
-  overflow: hidden;
 
   background: url('../images/background.png');
   background-repeat: no-repeat;
@@ -454,12 +451,13 @@ h2 {
 
 .container-hyperbolic-depreciation {
   background: #b09a81;
+  position: relative;
 }
 
 .container-hyperbolic-depreciation::before {
   position: absolute;
 
-  display: block;
+  
   width: 100%;
   height: 100%;
 
@@ -474,12 +472,13 @@ h2 {
 /* errors-in-planning */
 .container-errors-in-planning {
   background-color: #f5f4f0;
+  position: relative;
 }
 
 .container-errors-in-planning::before {
   position: absolute;
 
-  display: block;
+  
   width: 100%;
   height: 100%;
 

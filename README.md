@@ -17,4 +17,4 @@ $ make install
 ```sh
 make lint
 ```
-http://testy-destruction.surge.sh/
+furtive-giants.surge.sh

@@ -191,6 +191,7 @@ h2 {
 .video {
   display: block;
   margin: 0 auto;
+  border: 0;
 
   filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
 }
@@ -276,7 +277,10 @@ h2 {
 }
 
 .navigation-title {
+  font-weight: 400;
   font-size: 52px;
+  font-family: 'Neucha', cursive;
+  line-height: 1.2em;
 }
 
 .navigation-inner:hover p {
@@ -303,20 +307,22 @@ h2 {
 }
 
 .container-ikea {
-  background-color: #f5f4f0;
   position: relative;
+
+  background-color: #f5f4f0;
 }
 
 .container-ikea::before {
   position: absolute;
+
   width: 100%;
   height: 100%;
-  
+
   background: url('../images/background.png');
   background-repeat: no-repeat;
   background-size: cover;
   opacity: 0.1;
-  
+
   content: "";
 }
 
@@ -365,15 +371,16 @@ h2 {
 
 /* Premature optimization */
 .container-premature-optimization {
-  background: #b09a81;
   position: relative;
+
+  background: #b09a81;
 }
 
 .container-premature-optimization::before {
-  
+  position: absolute;
+
   width: 100%;
   height: 100%;
-  position: absolute;
 
   background: url('../images/background.png');
   background-repeat: no-repeat;
@@ -428,14 +435,14 @@ h2 {
 
 /* distortion-of-novelty */
 .container-distortion-of-novelty {
-  background-color: #f5f4f0;
   position: relative;
+
+  background-color: #f5f4f0;
 }
 
 .container-distortion-of-novelty::before {
   position: absolute;
 
-  
   width: 100%;
   height: 100%;
 
@@ -450,14 +457,14 @@ h2 {
 /* hyperbolic-depreciation */
 
 .container-hyperbolic-depreciation {
-  background: #b09a81;
   position: relative;
+
+  background: #b09a81;
 }
 
 .container-hyperbolic-depreciation::before {
   position: absolute;
 
-  
   width: 100%;
   height: 100%;
 
@@ -471,14 +478,15 @@ h2 {
 
 /* errors-in-planning */
 .container-errors-in-planning {
-  background-color: #f5f4f0;
   position: relative;
+
+  background-color: #f5f4f0;
 }
 
 .container-errors-in-planning::before {
   position: absolute;
 
-  
+  display: block;
   width: 100%;
   height: 100%;
 

@@ -1,4 +1,7 @@
 /** CSS STYLE **/
+@-o-viewport {
+   width: 1440px;
+}
 
 * {
   box-sizing: border-box;

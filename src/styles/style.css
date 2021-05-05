@@ -327,6 +327,9 @@ h2 {
 }
 
 .first-header-black {
+
+  margin-bottom: 30px;
+
   color: #2a2626;
   font-weight: 400;
   font-family: 'Neucha', cursive;
@@ -335,8 +338,13 @@ h2 {
 
 .second-header-white {
   margin: 100px 0 20px 0;
+  padding: 5px 0 5px 10px;
 
   color: #fff;
+  font-weight: 700;
+  font-family: 'Open Sans', serif;
+
+  line-height: 1.2em;
 
   background-color: #b09a81;
 }
@@ -400,13 +408,20 @@ h2 {
 
 .second-header-brown {
   margin: 100px 0 20px 0;
+  padding: 5px 0 5px 10px;
 
   color: #b09a81;
+  font-weight: 700;
+  font-family: 'Open Sans', serif;
+
+  line-height: 1.2em;
 
   background-color: #fff;
 }
 
 .first-header-white {
+  margin-bottom: 30px;
+
   color: #fff;
   font-weight: 400;
   font-family: 'Neucha', cursive;
@@ -612,6 +627,10 @@ input::placeholder {
 
 .contacts-inner a {
   text-decoration: none;
+}
+
+.contacts-inner:last-child {
+  margin-bottom: 100px;
 }
 
 .footer-rules a:hover {

@@ -1,7 +1,4 @@
 /** CSS STYLE **/
-@-o-viewport {
-   width: 1440px;
-}
 
 * {
   box-sizing: border-box;
@@ -630,10 +627,6 @@ input::placeholder {
 
 .contacts-inner a {
   text-decoration: none;
-}
-
-.contacts-inner:last-child {
-  margin-bottom: 100px;
 }
 
 .footer-rules a:hover {

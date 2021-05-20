@@ -11,8 +11,8 @@
     </head>
 
     <body>
-        <div class="container-header">
-            <header class="section">
+        <header class="container-header">
+            <section class="section">
                 <h1 class="header-header">Когнитивные<br>искажения<br>
                 <span class="black">в программировании</span></h1>
                 <img class="header-img" src="./images/main.png"  alt="Человек с ноутбуком">
@@ -37,8 +37,8 @@
                         <a class="header-button" href="#navigation">Подробнее</a>
                     </div>
                 </div>
-            </header> 
-        </div> <!--header-->
+            </section> 
+        </header> <!--header-->
         
         <main>
             <div class="container-video">
@@ -55,8 +55,8 @@
             </div> <!--video-->
                  
 
-            <nav class="container-navigation">
-                <section class="section" id="navigation">
+            <nav class="container-navigation" id="navigation">
+                <section class="section">
                         <div class="navigation-inner navigation-inner-title">
                             <h2 class="navigation-title"><span class="orange">5 когнитивных 
                                 искажений</span>
@@ -238,26 +238,29 @@
         
             <footer class="container-footer">
                 <section class="section">
-                    <div class="section-inner">
-                        <h2 class="section-paragraph-white">Хотите узнать больше?<br>Подпишитесь на обновления</h2>
-                    </div>
-                    <div class="section-inner">
+                    <div class="section-black">
+                       <div class="section-inner">
+                         <h2 class="section-paragraph-white">Хотите узнать больше?<br>Подпишитесь на обновления</h2>
+                       </div>
+                       <div class="section-inner">
                         <label for="footer-input" class="input-name">Электронная почта</label>
                         
-                        <form class="input-form" action="#" method="GET">
+                          <form class="input-form" action="#" method="GET">
                             <input class="input" type="email" id="footer-input" name="email" placeholder="Ваша электронная почта">
                             <button class="input-button" type="submit"></button>
-                        </form>
+                          </form>
                         <div class="footer-rules">Подписываясь, вы принимаете <span><a  href="#">правила сервиса</a></span></div>
+                    </div> 
                     </div>  
-                </section>
+                
                     <div class="contacts">
                             <p class="contacts-inner">© 2021 Инна Мелешко</p>
                             <p class="contacts-inner">По материалам статьи <a class="contacts-link" 
                                 href="https://medium.com/hackernoon/cognitive-biases-in-programming-5e937707c27b">Yash Ranadive Cognitive Biases in Programming</a></p>
                             <p class="contacts-inner"><a class="contacts-link" href="https://ru.hexlet.io/">Курсы программирования Hexlet</a></p>
                     </div>
-                
+
+                </section>
             </footer>
         
     </body>

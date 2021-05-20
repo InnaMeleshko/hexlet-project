@@ -36,7 +36,21 @@ h1 {
 }
 
 h2 {
+  font-weight: 400;
   font-size: 60px;
+  font-family: 'Neucha', cursive;
+  line-height: 1.2em;
+}
+
+h3 {
+  margin: 100px 0 20px 0;
+  padding: 5px 0 5px 10px;
+
+  font-weight: 700;
+  font-family: 'Open Sans', serif;
+
+  line-height: 1.2em;
+  text-transform: uppercase;
 }
 
 .container {
@@ -197,11 +211,8 @@ h2 {
 }
 
 .header-video {
-  font-weight: 400;
-  font-size: 72px;
 
-  font-family: 'Neucha', cursive;
-  line-height: 1.2em;
+  font-size: 72px;
   text-align: center;
 }
 
@@ -277,10 +288,7 @@ h2 {
 }
 
 .navigation-title {
-  font-weight: 400;
   font-size: 52px;
-  font-family: 'Neucha', cursive;
-  line-height: 1.2em;
 }
 
 .navigation-inner:hover p {
@@ -331,20 +339,10 @@ h2 {
   margin-bottom: 30px;
 
   color: #2a2626;
-  font-weight: 400;
-  font-family: 'Neucha', cursive;
-  line-height: 1.2em;
 }
 
 .second-header-white {
-  margin: 100px 0 20px 0;
-  padding: 5px 0 5px 10px;
-
   color: #fff;
-  font-weight: 700;
-  font-family: 'Open Sans', serif;
-
-  line-height: 1.2em;
 
   background-color: #b09a81;
 }
@@ -407,14 +405,7 @@ h2 {
 }
 
 .second-header-brown {
-  margin: 100px 0 20px 0;
-  padding: 5px 0 5px 10px;
-
   color: #b09a81;
-  font-weight: 700;
-  font-family: 'Open Sans', serif;
-
-  line-height: 1.2em;
 
   background-color: #fff;
 }
@@ -423,9 +414,6 @@ h2 {
   margin-bottom: 30px;
 
   color: #fff;
-  font-weight: 400;
-  font-family: 'Neucha', cursive;
-  line-height: 1.2em;
 }
 
 .section-paragraph-white {
@@ -526,12 +514,11 @@ h2 {
   height: auto;
 }
 
-.container-footer .section {
+.section-black {
   display: flex;
   align-items: center;
   justify-content: space-between;
   height: auto;
-  margin-top: 100px;
   padding: 0;
 
   background-color: #42413c;

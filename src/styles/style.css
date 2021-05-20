@@ -47,6 +47,7 @@ h3 {
   padding: 5px 0 5px 10px;
 
   font-weight: 700;
+  font-size: 14px;
   font-family: 'Open Sans', serif;
 
   line-height: 1.2em;
@@ -211,13 +212,13 @@ h3 {
 }
 
 .header-video {
+  margin-bottom: 30px;
 
-  font-size: 72px;
   text-align: center;
 }
 
 .container-video p {
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 
   color: #2a2626;
   font-size: 16px;

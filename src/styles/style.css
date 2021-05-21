@@ -345,7 +345,7 @@ h3 {
 .second-header-white {
   color: #fff;
 
-  background-color: #b09a81;
+  background-color: #b09a81; 
 }
 
 .section-span-dark50 {
@@ -380,7 +380,7 @@ h3 {
 .container-premature-optimization {
   position: relative;
 
-  background: #b09a81;
+  background-color: #b09a81;
 }
 
 .container-premature-optimization::before {
@@ -463,7 +463,7 @@ h3 {
 .container-hyperbolic-depreciation {
   position: relative;
 
-  background: #b09a81;
+  background-color: #b09a81;
 }
 
 .container-hyperbolic-depreciation::before {

@@ -40,6 +40,8 @@ h2 {
   font-size: 60px;
   font-family: 'Neucha', cursive;
   line-height: 1.2em;
+  margin-block-start: 0;
+  margin-block-end: 0;
 }
 
 h3 {

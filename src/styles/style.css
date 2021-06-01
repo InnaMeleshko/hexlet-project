@@ -87,18 +87,6 @@ h3 {
   padding: 100px 0 100px 0;
 }
 
-.black {
-  color: #2a2626;
-}
-
-.orange {
-  color: #fe8a02;
-}
-
-.white {
-  color: #fff;
-}
-
 .container-inner {
   display: flex;
   justify-content: space-between;
@@ -139,10 +127,7 @@ span {
 
 .container-header span {
   color: #2a2626;
-  font-weight: 400;
   font-size: 72px;
-  font-family: 'Neucha', cursive;
-  line-height: 1.2em;
 }
 
 .header-header {
@@ -152,7 +137,7 @@ span {
   margin-bottom: 185px;
 }
 
-.header-img {
+.container-header img {
   position: absolute;
   top: 55px;
   right: -270px;

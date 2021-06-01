@@ -130,11 +130,11 @@ span {
   font-size: 72px;
 }
 
-.header-header {
+.container-header h1 {
   position: relative;
   z-index: 1;
 
-  margin-bottom: 185px;
+  margin-bottom: 200px;
 }
 
 .container-header img {

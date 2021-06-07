@@ -134,7 +134,7 @@ span {
   position: relative;
   z-index: 1;
 
-  margin-bottom: 220px;
+  margin-bottom: 185px;
 }
 
 .container-header img {
@@ -143,6 +143,10 @@ span {
   right: -270px;
 
   height: 525px;
+
+  vertical-align: none;
+
+  filter: none;
 }
 
 .header-text {
